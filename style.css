@@ -1,0 +1,30 @@
+.container-1, .container-2, .container-3 {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.flex-box-container-1, .flex-box-container-2, .flex-box-pick-color {
+    margin-top: 5px;
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.flex-box-container-1 div {
+    display: flex;
+    border: 1px solid black;
+    padding: 5px;
+    align-items: center;
+}
+
+
+.flex-box-container-2 img {
+    padding: 10px;
+}
